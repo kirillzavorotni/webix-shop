@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar {
+    background-color: #3498db;
+}
+
+.toolbar button,
+.templateUserName,
+.templateShopName {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.logo-template {
+    cursor: pointer;
+}
+
+.toolbar button:hover {
+    color: rgb(212, 216, 233);
+    background-color: #3498db;
+}
+
+.templateUserName {
+    font-size: 20px;
+    text-align: center;
+}
+
+.templateShopName {
+    font-size: 20px;
+    text-align: left;
+}
+
+.prod_image .webix_cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prod_image img {
+    display: block;
+    height: 85px;
+}
+
+.counter-column .webix_cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buy-column .webix_cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.cart:hover {
+    color: #eb4848;
+}
+
+.productWindowCloseBtn span:before {
+    color: #fff;
+}
+
+.productWindowHeadTemplate,
+.productWindowCloseBtn {
+    background-color: #3498db;
+}
+
+.adminBtn button {
+    background-color: rgb(216, 112, 112);
+}
+
+.adminBtn button:hover {
+    background-color: rgb(212, 238, 151);
+    color: #000;
+}
+
+.adminBtn button:focus {
+    background-color: rgb(216, 112, 112);
+}
+
+.productWindowHeadTemplate {
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.product-template-wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.product-template-img {
+    display: block;
+    height: 230px;
+}
+
+.product-template-info-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-template-name,
+.product-template-rating-wrap {
+    padding: 20px 0;
+}
+
+.product-template-name {
+    font-size: 18px;
+}
+
+.product-template-rating-wrap {
+    display: flex;
+}
+
+.product-template-rating-star {
+    padding-left: 25px;
+}
+
+.clicked-rating-star {
+    color: rgb(248, 226, 28);
+}
+
+.product-template-rating-star:hover {
+    cursor: pointer;
+    color: rgb(248, 226, 28);
+}
+
+.default-color-star {
+    color: rgb(129, 34, 34);
+}
+
+.trash:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+.order-form-necess {
+    color: rgb(238, 24, 24);
+}
+
+.decline-reason-template-body {
+    font-size: 30px;
+    text-align: center;
+}
+
+.addProdForm-picture-template {
+    border-color: #fff;
+}
+
+.addProdForm-picture-template .webix_template {
+    padding-left: 1px;
+}
+
+.picture-template-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.picture-template-img {
+    display: block;
+    height: 95%;
+}
