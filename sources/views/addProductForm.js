@@ -4,6 +4,8 @@ import { serverUrl } from "models/serverUrl";
 const formRules = {
     "name": webix.rules.isNotEmpty,
     "price": webix.rules.isNumber,
+    "prodSelect": webix.rules.isNotEmpty,
+    "prodManuf": webix.rules.isNotEmpty,
 };
 
 const form_config = {
@@ -92,6 +94,8 @@ export default class AddProductFormView extends JetView {
                                     template: "#name#",
                                 },
                             },
+                            name: "prodSelect",
+                            invalidMessage: "can be fill",
                         },
                         {
                             view: "richselect",
@@ -104,6 +108,8 @@ export default class AddProductFormView extends JetView {
                                     template: "#name#",
                                 },
                             },
+                            name: "prodManuf",
+                            invalidMessage: "can be fill",
                         },
                         {
                             cols: [
